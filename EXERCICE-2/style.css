@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 800px;
+  overflow-x: auto; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  border-spacing: 0;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(7, 132, 86);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+.table2, .table4 {
+  background-color: rgb(247, 248, 249);
+}
+
+.table3, .table5 {
+  background-color: #c7cdcd; 
+}
